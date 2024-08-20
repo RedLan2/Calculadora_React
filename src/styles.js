@@ -14,11 +14,11 @@ export const Calculadora = styled.div`
         background-color: #FFFFFF;
         width: 18%;
         min-height:350px;
-        
-       
+        display:flex;
+        flex-direction:column;
 `
 export const Linha =styled.div`
-        display:flex
+        display:flex;
         flex-direction:row;
         justify-content:space-between;
         align-itens:center;
@@ -29,6 +29,15 @@ export const Coluna=styled.div`
         flex-direction:column;
         justify-content:space-between;
         align-itens:center;
+
+`
+
+export const Botao=styled.button`
+        width:50px;
+        height:50px;
+        margin:5px;
+        font-size:1.5rem;
+        cursor:pointer;
 
 `
 
